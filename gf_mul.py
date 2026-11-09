@@ -81,3 +81,4 @@ if __name__ == "__main__":
         assert all(gf_mul(a, b, n) == gf_mul_reduce(a, b, n) == gf_mul(b, a, n)
                    for a in range(s) for b in range(s))
         print(f"GF(2^{n}): hai cách khớp và giao hoán trên toàn bộ {s * s} cặp")
+        # ---------------------------------------------------------------
